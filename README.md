@@ -1,7 +1,7 @@
 # automat_chrom3D_colors
 Utility to color beads in chrom3D 
 
-![alt text] (https://xespes10.u.hpc.mssm.edu/images/schematic_3.png)
+![alt text](https://xespes10.u.hpc.mssm.edu/images/schematic_3.png)
 
 
 # Required dependencies 
