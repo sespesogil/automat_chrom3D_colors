@@ -22,7 +22,7 @@ Add to the preprocess__script-master folder the scripts found in this repository
 
 # Usage
 
-```automat_chrom3D_colors.sh filename.cmm ROI.bed RGB_colors override/blend```
+```automat_chrom3D_colors.sh  filename.cmm  ROI.bed  RGB_colors  override/blend```
 
 ```filename.cmm```= chrom3D cmm file. <br/>
 ```ROI.bed```= bedfile containing the regions of interes to be colored. <br/>
