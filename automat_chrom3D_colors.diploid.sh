@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 module load bedtools/2.24.0 python py_packages
