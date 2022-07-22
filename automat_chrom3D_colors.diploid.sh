@@ -1,8 +1,8 @@
 #!/bin/bash
 
-module load bedtools/2.24.0 python py_packages
+# load appropiated modules
 
-grep beadID $1 | awk -F' ' '{print $11}' | sed -e "s/[=:-]\+/\t/g" | sed -e "s/[_AB]\+//g" | sed 's/\"/\t/g' | awk -F'\t' '{print $3"\t"$4"\t"$5"\t"}' > bead.ids
+grep beadID $1 | awk -F' ' '{print $11}' | sed -e "s/[=:-]\+/\t/g" | sed -e "s/[_AB]\+//g" | sed 's/\"/\t/g' | awk -F'\t' '{print $3"\t"$4"\t"$5}' > bead.ids
 
 bedtools intersect -a bead.ids -b $2 -wa > temp
 
